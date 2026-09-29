@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ModelMint Storefront</title>
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" data-link>
+        <img class="brand-mark" src="/assets/mm-logo.svg" alt="" />
+        <span class="brand-wordmark">model<span>mint</span><b>3d</b></span>
+      </a>
+      <nav aria-label="Store navigation">
+        <a href="/shop" data-link>Shop</a>
+        <a href="/cart" data-link>Cart</a>
+        <a href="/custom-orders" data-link>Custom Orders</a>
+        <a href="/business" data-link>Business</a>
+        <a href="/events" data-link>Events</a>
+        <a href="/new" data-link>New</a>
+        <a href="/about" data-link>About</a>
+        <a href="/contact" data-link>Contact</a>
+      </nav>
+      <a id="cart-button" class="cart-button" href="/cart" data-link>Cart <span id="cart-count">0</span></a>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="footer-brand" href="/" data-link>
+          <img class="footer-mark" src="/assets/mm-logo.svg" alt="" />
+          <span>modelmint3d</span>
+        </a>
+        <p>Custom prints and creative fabrication. Bringing ideas to life, one layer at a time.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/shop" data-link>Shop</a>
+        <a href="/custom-orders" data-link>Custom Orders</a>
+        <a href="/business" data-link>Business</a>
+      </div>
+    </footer>
+
+    <aside id="cart-panel" class="cart-panel" aria-label="Cart preview" aria-hidden="true">
+      <div class="cart-header">
+        <h2>Cart</h2>
+        <button id="close-cart" type="button" aria-label="Close cart">x</button>
+      </div>
+      <div id="cart-lines" class="cart-lines"></div>
+      <div class="cart-footer">
+        <p>Website-1 uses a local sample cart. Shopify checkout URL handoff comes in Website-2.</p>
+        <a class="secondary-button" href="/cart" data-link>View Cart Summary</a>
+      </div>
+    </aside>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

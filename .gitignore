@@ -1,0 +1,62 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+credentials.json
+*credentials*.json
+*secrets*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Private library, customer records, and generated output
+/data/
+/incoming/
+/reports/
+/archive/
+/library/
+/uploads/
+/custom-orders/
+/customer-data/
+quote-requests*.json
+scanner-status*.json
+catalog.json
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Production geometry and creator archives (case-insensitive)
+*.[sS][tT][lL]
+*.3[mM][fF]
+*.[oO][bB][jJ]
+*.[sS][tT][eE][pP]
+*.[sS][tT][pP]
+*.zip
+*.7z
+*.rar
+
+# Python runtime and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

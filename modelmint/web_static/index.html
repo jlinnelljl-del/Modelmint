@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ModelMint Review Queue</title>
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark">M</span>
+          <div>
+            <h1>ModelMint</h1>
+            <p>Catalog intake</p>
+          </div>
+        </div>
+        <nav class="nav-list" aria-label="Main navigation">
+          <a class="active" href="#queue">Review Queue</a>
+          <a href="#library-status">Library Paths</a>
+          <a href="#catalog">Catalog Records</a>
+          <a href="#rules">Finish Rules</a>
+        </nav>
+        <div class="safety-panel">
+          <strong>Human approval required</strong>
+          <span>No publishing, checkout, or customer messages happen here.</span>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Local admin</p>
+            <h2>Review Queue</h2>
+          </div>
+          <button id="run-intake" class="primary-button" type="button">Run Scan Now</button>
+        </header>
+
+        <section class="stats-grid" aria-label="Catalog summary">
+          <article>
+            <span id="stat-models">0</span>
+            <p>Models</p>
+          </article>
+          <article>
+            <span id="stat-review">0</span>
+            <p>Needs Review</p>
+          </article>
+          <article>
+            <span id="stat-creators">0</span>
+            <p>Creators</p>
+          </article>
+          <article>
+            <span id="stat-assets">0</span>
+            <p>Assets</p>
+          </article>
+        </section>
+
+        <section class="toolbar" aria-label="Review filters">
+          <label>
+            Search
+            <input id="search" type="search" placeholder="Model, creator, category" />
+          </label>
+          <label>
+            Status
+            <select id="status-filter"></select>
+          </label>
+          <label>
+            Category
+            <select id="category-filter"></select>
+          </label>
+        </section>
+
+        <section class="workspace" id="queue">
+          <div>
+            <div class="section-heading">
+              <h3>Models</h3>
+              <span id="result-count">0 shown</span>
+            </div>
+            <div id="model-list" class="model-list" aria-live="polite"></div>
+          </div>
+
+          <aside class="detail-panel" id="detail-panel" aria-live="polite">
+            <div class="empty-state">
+              <h3>Select a model</h3>
+              <p>Review files, status, colors, and production notes.</p>
+            </div>
+          </aside>
+        </section>
+
+        <section class="records-section" id="catalog">
+          <div class="section-heading">
+            <h3>Catalog Records</h3>
+            <span>Current local JSON</span>
+          </div>
+          <div id="record-summary" class="record-grid"></div>
+        </section>
+
+        <section class="records-section" id="library-status">
+          <div class="section-heading">
+            <h3>Library Paths</h3>
+            <span>Cloud-synced local copy</span>
+          </div>
+          <div id="library-status-list" class="rules-list"></div>
+        </section>
+
+        <section class="records-section" id="rules">
+          <div class="section-heading">
+            <h3>Finish Rules</h3>
+            <span>Owner-reviewed defaults</span>
+          </div>
+          <div id="rules-list" class="rules-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

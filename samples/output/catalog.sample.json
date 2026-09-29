@@ -1,0 +1,285 @@
+{
+  "assets": [
+    {
+      "asset_id": "asset_214e59a9f0e444d1",
+      "asset_type": "model_file",
+      "file_extension": ".obj",
+      "file_name": "Skull Dice Tower.obj",
+      "file_path": "incoming/Tabletop Bits Co/May Drop/unsupported/Skull Dice Tower.obj",
+      "model_id": "model_72cd759035f0402f",
+      "notes": "",
+      "preview_priority": 1
+    },
+    {
+      "asset_id": "asset_34a79ca7c470cca0",
+      "asset_type": "preview_image",
+      "file_extension": ".webp",
+      "file_name": "dice-tower.webp",
+      "file_path": "incoming/Tabletop Bits Co/May Drop/images/dice-tower.webp",
+      "model_id": "model_72cd759035f0402f",
+      "notes": "",
+      "preview_priority": 2
+    },
+    {
+      "asset_id": "asset_83acb8f22ed48ab7",
+      "asset_type": "model_file",
+      "file_extension": ".3mf",
+      "file_name": "Crystal Dragon.3mf",
+      "file_path": "incoming/Arcane Forge Minis/2026-05 Release/Crystal Dragon.3mf",
+      "model_id": "model_8f1d692ad2166002",
+      "notes": "",
+      "preview_priority": 1
+    },
+    {
+      "asset_id": "asset_b0479988daad13c2",
+      "asset_type": "model_file",
+      "file_extension": ".stl",
+      "file_name": "Crystal Dragon supported.stl",
+      "file_path": "incoming/Arcane Forge Minis/2026-05 Release/supported/Crystal Dragon supported.stl",
+      "model_id": "model_8f1d692ad2166002",
+      "notes": "",
+      "preview_priority": 2
+    },
+    {
+      "asset_id": "asset_70cec8c14e8664d3",
+      "asset_type": "preview_image",
+      "file_extension": ".jpg",
+      "file_name": "preview.jpg",
+      "file_path": "incoming/Arcane Forge Minis/2026-05 Release/preview.jpg",
+      "model_id": "model_8f1d692ad2166002",
+      "notes": "",
+      "preview_priority": 3
+    },
+    {
+      "asset_id": "asset_b7a9dee3228661e8",
+      "asset_type": "model_file",
+      "file_extension": ".step",
+      "file_name": "brewery-logo-coaster.step",
+      "file_path": "incoming/Coaster Lab/messy files/brewery-logo-coaster.step",
+      "model_id": "model_96e011145ef680f0",
+      "notes": "",
+      "preview_priority": 1
+    },
+    {
+      "asset_id": "asset_a8168dc54a7e4dfe",
+      "asset_type": "preview_image",
+      "file_extension": ".png",
+      "file_name": "IMG_001.PNG",
+      "file_path": "incoming/Coaster Lab/messy files/IMG_001.PNG",
+      "model_id": "model_96e011145ef680f0",
+      "notes": "",
+      "preview_priority": 2
+    }
+  ],
+  "color_profiles": [
+    {
+      "allowed_color_families": [
+        "Classic",
+        "Pastel",
+        "Dark/Gothic",
+        "Rainbow",
+        "Forest",
+        "Fire/Ice",
+        "Galaxy",
+        "Artist Choice",
+        "Custom Notes"
+      ],
+      "allowed_finishes": [],
+      "artisan_filament_notes": "",
+      "blocked_finishes": [],
+      "color_profile_id": "color_profile_5e22c572f1ccdc28",
+      "color_slot_count": 3,
+      "customer_color_description": "",
+      "finish_notes": "Needs review before customer-facing finish options are enabled.",
+      "internal_color_notes": "",
+      "model_id": "model_8f1d692ad2166002",
+      "slot_1_label": "Color 1",
+      "slot_2_label": "Color 2",
+      "slot_3_label": "Color 3",
+      "slot_4_label": "Color 4"
+    }
+  ],
+  "creators": [
+    {
+      "active_status": "Active",
+      "commercial_license_status": "Unknown",
+      "creator_id": "creator_eaadfeb19313cb6c",
+      "creator_name": "Arcane Forge Minis",
+      "default_attribution_text": "",
+      "license_notes": "",
+      "notes": "",
+      "source_platform": ""
+    },
+    {
+      "active_status": "Active",
+      "commercial_license_status": "Unknown",
+      "creator_id": "creator_0a3ae96a5bb42451",
+      "creator_name": "Coaster Lab",
+      "default_attribution_text": "",
+      "license_notes": "",
+      "notes": "",
+      "source_platform": ""
+    },
+    {
+      "active_status": "Active",
+      "commercial_license_status": "Unknown",
+      "creator_id": "creator_ecafe45b3c50c214",
+      "creator_name": "Tabletop Bits Co",
+      "default_attribution_text": "",
+      "license_notes": "",
+      "notes": "",
+      "source_platform": ""
+    }
+  ],
+  "custom_orders": [],
+  "material_finish_rules": [
+    {
+      "allowed_finishes": [
+        "matte",
+        "standard"
+      ],
+      "applies_to_articulated_parts": true,
+      "applies_to_decorative_items": false,
+      "applies_to_mechanical_parts": true,
+      "blocked_finishes": [
+        "silk",
+        "glow",
+        "brittle filled"
+      ],
+      "product_category": "extendable katana",
+      "reason": "High-stress sliding parts need tougher materials and predictable friction.",
+      "rule_id": "rule_extendable_katana_default"
+    },
+    {
+      "allowed_finishes": [
+        "silk",
+        "sparkle",
+        "metallic",
+        "color-shift",
+        "matte",
+        "standard"
+      ],
+      "applies_to_articulated_parts": false,
+      "applies_to_decorative_items": true,
+      "applies_to_mechanical_parts": false,
+      "blocked_finishes": [],
+      "product_category": "decorative dragon",
+      "reason": "Decorative display items can use premium visual finishes when articulation risk is low.",
+      "rule_id": "rule_decorative_dragon_default"
+    },
+    {
+      "allowed_finishes": [
+        "matte",
+        "standard"
+      ],
+      "applies_to_articulated_parts": false,
+      "applies_to_decorative_items": true,
+      "applies_to_mechanical_parts": false,
+      "blocked_finishes": [
+        "high-glitter",
+        "low-contrast translucent"
+      ],
+      "product_category": "HueForge",
+      "reason": "Visual clarity and contrast matter more than novelty finish.",
+      "rule_id": "rule_hueforge_default"
+    }
+  ],
+  "models": [
+    {
+      "artisan_notes": "",
+      "attribution_required": true,
+      "category": "Home and Decor",
+      "color_slot_count": 0,
+      "created_at": "2026-05-17T18:21:20+00:00",
+      "creator_id": "creator_0a3ae96a5bb42451",
+      "estimated_complexity": "Unknown",
+      "license_status": "Unknown",
+      "model_id": "model_96e011145ef680f0",
+      "model_name": "Brewery Logo Coaster",
+      "model_type": "Coaster",
+      "multi_color": false,
+      "primary_file_path": "incoming/Coaster Lab/messy files/brewery-logo-coaster.step",
+      "production_notes": "",
+      "release_id": "release_383e143af2e0883e",
+      "review_status": "Needs Review",
+      "source_folder_path": "incoming/Coaster Lab/messy files",
+      "status": "Needs Review",
+      "subcategory": "",
+      "updated_at": "2026-05-17T18:21:20+00:00"
+    },
+    {
+      "artisan_notes": "",
+      "attribution_required": true,
+      "category": "Figures and Toys",
+      "color_slot_count": 3,
+      "created_at": "2026-05-17T18:21:20+00:00",
+      "creator_id": "creator_eaadfeb19313cb6c",
+      "estimated_complexity": "Unknown",
+      "license_status": "Unknown",
+      "model_id": "model_8f1d692ad2166002",
+      "model_name": "Crystal Dragon",
+      "model_type": "Dragon",
+      "multi_color": true,
+      "primary_file_path": "incoming/Arcane Forge Minis/2026-05 Release/Crystal Dragon.3mf",
+      "production_notes": "",
+      "release_id": "release_a2778ba936f7e3bc",
+      "review_status": "Needs Review",
+      "source_folder_path": "incoming/Arcane Forge Minis/2026-05 Release",
+      "status": "Needs Review",
+      "subcategory": "",
+      "updated_at": "2026-05-17T18:21:20+00:00"
+    },
+    {
+      "artisan_notes": "",
+      "attribution_required": true,
+      "category": "Tabletop Gaming",
+      "color_slot_count": 0,
+      "created_at": "2026-05-17T18:21:20+00:00",
+      "creator_id": "creator_ecafe45b3c50c214",
+      "estimated_complexity": "Unknown",
+      "license_status": "Unknown",
+      "model_id": "model_72cd759035f0402f",
+      "model_name": "Skull Dice Tower",
+      "model_type": "Dice Tower",
+      "multi_color": false,
+      "primary_file_path": "incoming/Tabletop Bits Co/May Drop/unsupported/Skull Dice Tower.obj",
+      "production_notes": "",
+      "release_id": "release_d974463bb1a5576a",
+      "review_status": "Needs Review",
+      "source_folder_path": "incoming/Tabletop Bits Co/May Drop/unsupported",
+      "status": "Needs Review",
+      "subcategory": "",
+      "updated_at": "2026-05-17T18:21:20+00:00"
+    }
+  ],
+  "releases": [
+    {
+      "creator_id": "creator_0a3ae96a5bb42451",
+      "intake_status": "Needs Review",
+      "notes": "Detected under creator folder: Coaster Lab",
+      "release_date": "",
+      "release_id": "release_383e143af2e0883e",
+      "release_name": "messy files",
+      "source_folder_path": "incoming/Coaster Lab/messy files"
+    },
+    {
+      "creator_id": "creator_eaadfeb19313cb6c",
+      "intake_status": "Needs Review",
+      "notes": "Detected under creator folder: Arcane Forge Minis",
+      "release_date": "2026-05-01",
+      "release_id": "release_a2778ba936f7e3bc",
+      "release_name": "2026-05 Release",
+      "source_folder_path": "incoming/Arcane Forge Minis/2026-05 Release"
+    },
+    {
+      "creator_id": "creator_ecafe45b3c50c214",
+      "intake_status": "Needs Review",
+      "notes": "Detected under creator folder: Tabletop Bits Co",
+      "release_date": "",
+      "release_id": "release_d974463bb1a5576a",
+      "release_name": "May Drop",
+      "source_folder_path": "incoming/Tabletop Bits Co/May Drop"
+    }
+  ],
+  "schema_version": 2
+}

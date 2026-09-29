@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap");
+
+:root {
+  --plum: #4b256d;
+  --violet: #7c4dff;
+  --mint: #7ee7c1;
+  --charcoal: #1e1e24;
+  --soft-lavender: #f3f0ff;
+  --white: #ffffff;
+
+  --color-text: #252235;
+  --color-text-muted: #625b73;
+  --color-text-nav: #3a314d;
+  --color-text-field-label: #3b3150;
+  --color-text-mint-dark: #14342d;
+  --color-border: #ded6f4;
+  --color-field-border: #cfc4ec;
+  --color-page: #fbf9ff;
+  --color-panel: #ffffff;
+  --color-danger: #b42318;
+
+  --surface-header: rgba(255, 255, 255, 0.9);
+  --surface-button: rgba(255, 255, 255, 0.84);
+  --surface-hero-card: rgba(255, 255, 255, 0.08);
+  --surface-rule: rgba(243, 240, 255, 0.9);
+  --surface-chip: rgba(126, 231, 193, 0.2);
+  --surface-card-top: rgba(255, 255, 255, 0.98);
+  --surface-card-bottom: rgba(243, 240, 255, 0.48);
+  --surface-product-media: rgba(124, 77, 255, 0.12);
+  --surface-product-media-mint: rgba(126, 231, 193, 0.1);
+
+  --border-header: rgba(222, 214, 244, 0.82);
+  --border-card: rgba(222, 214, 244, 0.9);
+  --border-mint: rgba(126, 231, 193, 0.9);
+  --border-mint-soft: rgba(126, 231, 193, 0.42);
+
+  --glow-page-mint: rgba(126, 231, 193, 0.22);
+  --glow-page-violet: rgba(124, 77, 255, 0.13);
+  --glow-hero-mint: rgba(126, 231, 193, 0.3);
+  --glow-hero-violet: rgba(124, 77, 255, 0.38);
+  --overlay-hero-charcoal: rgba(30, 30, 36, 0.98);
+  --overlay-hero-plum: rgba(75, 37, 109, 0.92);
+  --line-hero-mint: rgba(126, 231, 193, 0.18);
+  --line-hero-white: rgba(255, 255, 255, 0.055);
+  --line-hero-white-soft: rgba(255, 255, 255, 0.045);
+  --focus-ring: rgba(126, 231, 193, 0.45);
+  --text-on-dark: rgba(255, 255, 255, 0.91);
+  --text-on-dark-strong: rgba(255, 255, 255, 0.94);
+  --text-on-dark-muted: rgba(255, 255, 255, 0.78);
+
+  --shadow: 0 18px 44px rgba(75, 37, 109, 0.13);
+  --shadow-soft: 0 10px 26px rgba(75, 37, 109, 0.09);
+  --shadow-logo: 0 10px 22px rgba(75, 37, 109, 0.18);
+  --shadow-primary: 0 12px 26px rgba(124, 77, 255, 0.28);
+  --shadow-primary-hover: 0 14px 32px rgba(126, 231, 193, 0.28);
+  --shadow-inner-mint: inset 0 0 40px rgba(126, 231, 193, 0.12);
+
+  --radius-card: 18px;
+  --radius-control: 999px;
+  --radius-field: 12px;
+
+  --font-heading: "Sora", "Inter", Arial, sans-serif;
+  --font-body: "Inter", Arial, Helvetica, sans-serif;
+}

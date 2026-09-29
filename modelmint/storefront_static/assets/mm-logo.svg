@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">ModelMint3D MM logo placeholder</title>
+  <desc id="desc">Angular double M mark in plum, violet, and mint.</desc>
+  <defs>
+    <linearGradient id="violetPlum" x1="20" y1="24" x2="150" y2="196" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9B7BFF"/>
+      <stop offset="0.54" stop-color="#7C4DFF"/>
+      <stop offset="1" stop-color="#4B256D"/>
+    </linearGradient>
+    <linearGradient id="mintGlow" x1="72" y1="92" x2="152" y2="174" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B8FFE6"/>
+      <stop offset="1" stop-color="#7EE7C1"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#1E1E24" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="220" height="220" rx="42" fill="#1E1E24"/>
+  <path d="M110 22l10 28 28 10-28 10-10 28-10-28-28-10 28-10 10-28z" fill="#7EE7C1"/>
+  <path d="M42 72v92l32 22V114l36 35 36-35v72l32-22V72l-68 66L42 72z" fill="url(#violetPlum)" filter="url(#softShadow)"/>
+  <path d="M74 121v31l36 34 36-34v-31l-36 35-36-35z" fill="url(#mintGlow)"/>
+</svg>
